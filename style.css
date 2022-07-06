@@ -1,0 +1,247 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+
+}
+
+header {
+    background-image: url(images/donation13.jpg);
+    text-align: center;
+    height: 500px;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+header h1 {
+    padding-top: 200px;
+    font-weight: 7em;
+}
+
+header p {
+    font-weight: 7em;
+}
+
+.buttons {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, rgb(225, 181, 100));
+    height: 50px;
+    border-radius: 12px;
+    border-color: orange;
+    margin-top: 20px;
+    padding: 0px 20px;
+    color: azure;
+    font-weight: bold;
+}
+
+.donate-amount {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.amount-width {
+    width: 15%;
+}
+
+.amountToPay {
+    padding-left: 5%;
+    display: flex;
+    width: 100%;
+}
+
+.amount-style {
+
+    height: 70px;
+    justify-content: center;
+    margin-right: 2%;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    background-color: rgba(245, 245, 220, 0.69);
+    border-radius: 8px;
+}
+
+#taka200 {
+    background-color: rgba(248, 130, 57, 0.69);
+    height: 70px;
+    border: 2px solid orangered;
+
+}
+
+.amountInput {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.319);
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 10px;
+}
+
+.donationPlan {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donation-column {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.food-column {
+    background-color: rgba(245, 245, 220, 0.632);
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 50px 10px;
+    border-radius: 20px;
+    width: 32%;
+}
+
+.edu-column {
+    background-color: rgba(127, 179, 246, 0.632);
+    margin-right: 20px;
+    padding: 50px 10px;
+    border-radius: 20px;
+    width: 32%;
+}
+
+.shelter-column {
+    background-color: rgba(250, 130, 248, 0.496);
+    margin-right: 20px;
+    padding: 50px 10px;
+    border-radius: 20px;
+    width: 32%;
+}
+
+
+
+
+footer {
+    color: rgb(249, 75, 75);
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    margin-top: 50px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    color: beige;
+    padding-bottom: 20px;
+}
+
+.impact-section {
+    background-color: #3CD99E;
+    height: 500px;
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-top: 40px;
+    font-weight: 900;
+}
+
+.impact-columns {
+    display: flex;
+
+}
+
+
+.half-width {
+    width: 50%;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
+
+ul li img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+ul li p {
+    display: inline-block;
+}
+
+
+.update-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.email-subscription {
+    width: 60%;
+    margin-left: 20%;
+    background-color: bisque;
+    height: 100px;
+    padding-top: 40px;
+}
+
+input[type="email"],
+textarea {
+
+    background-color: #d1d1d1;
+    border: none;
+    height: 25px;
+    border-radius: 2px;
+    margin-right: 0px;
+    padding-left: 10px;
+}
+
+#subscribe-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, rgb(225, 104, 100));
+    height: 25px;
+    margin-top: 20px;
+    padding: 0px 20px;
+    color: azure;
+    margin-left: 0;
+    border: none;
+
+}
+
+.ways-to-donate-head {
+    display: flex;
+    background-color: beige;
+    border: 1px solid beige;
+    height: 50px;
+    width: 70%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+
+}
+
+
+
+.ways-to-donate-head img {
+    display: inline-block;
+
+}
+
+.ways-to-donate-head h1 {
+    display: inline-block;
+
+}
+
+.ways-to-donate-body {
+    width: 70%;
+    background-color: rgb(237, 220, 220);
+    border: 1px solid beige;
+    padding-left: 20px;
+}
+
+#get-started-button {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
